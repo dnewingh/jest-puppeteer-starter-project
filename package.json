@@ -1,0 +1,17 @@
+{
+  "name": "jest-puppeteer-starter-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "jest-html-reporter": "^3.4.2",
+    "puppeteer": "^13.0.1"
+  }
+}

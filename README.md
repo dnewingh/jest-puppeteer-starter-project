@@ -2,10 +2,16 @@
 This is a bare bones project to demonstrate a basic automated end to end test case using Puppeteer, Jest, and jest-html-reporter.
 
 - Puppeteer (https://github.com/puppeteer/puppeteer) is a headless browser that allows us to simulate browser interactions with code
-- Jest (https://jestjs.io/) is a javascript testing framework that functions as both a test runner (executing tests and summarizing results) and an assertion library (defining testing logic and conditions)
+- Jest (https://jestjs.io/) is a javascript testing framework that functions as both a test runner (executing tests and summarizing results) and an assertion library (defining test logic and conditions)
 - jest-html-reporter (https://www.npmjs.com/package/jest-html-reporter) is a test results processor for formatting test results as HTML
 
 # Installation
+Clone the repository and install dependencies.
+```
+git clone https://github.com/dnewingh/jest-puppeteer-starter-project.git
+npm install
+```
+Skip ahead to the [Usage](#usage) section to give it a try.
 
 ## Alternative Installation via Manual Setup
 As with every JavaScript project you'll need an NPM environment (make sure to have Node installed on your system).  Create a new folder and initialize the project with:

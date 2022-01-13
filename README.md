@@ -19,7 +19,7 @@ As with every JavaScript project you'll need an NPM environment (make sure to ha
 mkdir jest-puppeteer-starter-project && cd $_
 npm init -y
 ```
-Next up install Jest, jest-html-reporter, and Puppeteer with:
+Next, install Jest, jest-html-reporter, and Puppeteer with:
 ```
 npm i jest jest-html-reporter puppeteer --save-dev
 ```
@@ -40,8 +40,8 @@ Finally configure Jest to format test results as HTML with the following file.
 ```
 
 ### Writing tests using Puppeteer
-Jest will automatically run any files with *.test.js in the filename or that is placed in a \_\_tests\_\_ directory.  The test below launches an incognito instance of the browser, navigates to a known endpoint, and checks for the presence of an expected text value.  
-> page.test.js
+Jest will automatically run any files with *.test.js in the filename or that are placed in a \_\_tests\_\_ directory.  The test below launches an incognito instance of the browser, navigates to a known endpoint, and checks for the presence of an expected text value.  
+> newsPage.test.js
 ```js
 const puppeteer = require('puppeteer');
 

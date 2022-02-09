@@ -75,6 +75,9 @@ npm test
 ```
 A new file *test-report.html* will be generated in the project root directory.  Open this file in your browser to view the test results summary!
 
+# Troubleshooting
+Note: Puppeteer requires additional dependencies to be installed on amazon-linux.  Please refer to the following: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md#running-puppeteer-on-aws-ec2-instance-running-amazon-linux
+
 # Inspiration
 Thanks to all these great examples.
 - https://www.valentinog.com/blog/jest/
